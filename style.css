@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Space+Mono&display=swap');
+@import url("https://www.pexels.com/fr-fr/photo/ville-ciel-art-monument-4079564/");
+
+#logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0;
+  opacity: 0.70;
+  position: fixed;
+  left: 920;
+  top: 10;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#logo:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+body {
+  background: url(images/van.jpg) no-repeat center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}
+.first-title {
+  width: 600px;
+  margin: 50;
+  padding: 130px;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 40px;
+  /* box-shadow: 8px 8px 8px #f25c54; */
+  border-radius: 50px;
+  background-color: #eee4e1;
+  opacity: 0.85;
+  position: relative;
+
+}
+
+h1 {
+  color: #f25c54;
+  text-align: center;
+  font-family: 'Raleway', 'Ubuntu';
+  font-size: 40;
+  padding-bottom: 50px;
+}
+
+.profil-pictures {
+  width: 400px;
+  height: 400px;
+  border-radius: 200%;
+  text-align: center;
+}
+
+.presentation {
+  width: 600px;
+  margin: 50;
+  padding: 130px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  /* box-shadow: 8px 8px 8px #f25c54; */
+  border-radius: 50px;
+  background-color: #eee4e1;
+  opacity: 0.85;
+}
+
+
+
+.btn-wagon {
+  text-decoration: none;
+  border: 3px solid #d22a35;
+  border-radius: 10px;
+  background-color: #d22a35;
+  color: white;
+  font-family: 'Ubuntu';
+  text-align: center;
+  font-size: 40 ;
+  padding: 20px;
+  margin: 190px;
+}
+.btn-wagon:hover {
+  background-color: #f03340;
+
+}
+
+p {
+  text-align: justify;
+  font-family: 'Raleway';
+  font-size: 40;
+}
+
+h3 {
+  font-family: 'Ubuntu', 'Raleway';
+  color: #f25c54;
+  text-align: center;
+  font-size: 50;
+  padding-bottom: 50px;
+
+  width: 600px;
+  margin: 50;
+  padding: 130px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  /* box-shadow: 8px 8px 8px #f25c54; */
+  border-radius: 50px;
+  background-color: #eee4e1;
+  opacity: 0.65;
+}
+
+h2 {
+  font-family: 'Ubuntu', 'Raleway';
+  color: #f25c54;
+  text-align: center;
+  font-size: 50;
+}
+
+.links{
+  width: 600px;
+  margin: 50;
+  padding: 130px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-family: 'Ubuntu', 'Raleway';
+  color: #f25c54;
+  text-align: center;
+  font-size: 40;
+  /* box-shadow: 8px 8px 8px #f25c54; */
+  border-radius: 50px;
+  /* background-color: #eee4e1; */
+  opacity: 0.65;
+
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  }
+
+  .links:hover  {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+
+
+#icone{
+  color:red;
+  padding: 0;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
